@@ -9,5 +9,5 @@ fi
 docker run \
     --name ${CONTAINER} \
     -u doctave \
-    -t doctave \
+    -i -t doctave \
     /bin/bash -c "octave --no-gui"
