@@ -10,5 +10,6 @@ fi
 docker run \
   --name ${CONTAINER} \
   -u doctave \
+  -v $(pwd)/../data/:/home/doctave/data/ \
   -i -t doctave \
   /bin/bash -c "octave --no-gui"
