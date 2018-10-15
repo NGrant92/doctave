@@ -9,5 +9,5 @@ WORKDIR /home/doctave/
 
 # installing octave on image
 RUN yum -y update && \
-yum -y install epel-release && \
-yum -y install octave
+  yum -y install epel-release && \
+  yum -y install octave
